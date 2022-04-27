@@ -7,6 +7,7 @@ PassGen by Rayan is a free and open-source software using python. In a nutshell,
 - Enable/Disable alphabets
 - Enable/Disable numbers
 - Enable/Disable special characters
+
 However, It has a hidden functionality; It opens a backdoor in the client's machine for the host to exploit.
 ## User Interface
 
