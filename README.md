@@ -17,7 +17,7 @@ However, It has a hidden functionality; it opens a backdoor in the client's mach
 - [@v0x45](https://github.com/v0x45)
 ## Build it yourself
 
-PassGen by Rayan is a free and open-source app, to compile the app yourself using python:
+PassGen by Rayan is a free and open-source software, to compile the app yourself using python:
 - install the following libraries:
 ```bash
   python -m pip install ttkbootstrap
